@@ -1,0 +1,14 @@
+(define (expr-compare x y)
+(cond 
+;equal case
+[(equal? x y) x ]
+;boolean case
+[(and (boolean? x) (boolean? y))
+(if x '% '(not %))]
+
+[(and (list? x) (list? y)) 
+		 (list 'if '% x y)]
+         
+[else #t]
+)
+)

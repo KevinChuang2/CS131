@@ -1,0 +1,23 @@
+Threads average 725.797 ns/transition
+Threads average 407.655 ns/transition
+Threads average 1730.66 ns/transition
+sum mismatch (50 != 59)
+Threads average 5338.51 ns/transition
+sum mismatch (50 != 44)
+Threads average 12162.1 ns/transition
+sum mismatch (50 != 41)
+Threads average 23123.6 ns/transition
+sum mismatch (50 != 61)
+Threads average 31610.8 ns/transition
+sum mismatch (50 != 39)
+Threads average 126.124 ns/transition
+Threads average 513.721 ns/transition
+sum mismatch (50 != 60)
+Threads average 942.050 ns/transition
+sum mismatch (50 != 52)
+Threads average 3661.56 ns/transition
+sum mismatch (50 != 42)
+Threads average 4540.50 ns/transition
+sum mismatch (50 != 48)
+Threads average 13658.9 ns/transition
+sum mismatch (50 != 39)

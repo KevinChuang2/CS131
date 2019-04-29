@@ -1,0 +1,26 @@
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Hands started
+INFO:root:RECEIVED: AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+
+INFO:root:FLOODING
+INFO:root:Connecting to server Goloman that has port # 12080
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+ to Goloman
+INFO:root:Connecting to server Wilkes that has port # 12084
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+ to Wilkes
+INFO:root:Failed to Connect to Wilkes
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Hands started
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Hands started
+INFO:root:RECEIVED: AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+
+INFO:root:FLOODING
+INFO:root:Connecting to server Goloman that has port # 12080
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+ to Goloman
+INFO:root:Connecting to server Wilkes that has port # 12084
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+ to Wilkes
+INFO:root:Failed to Connect to Wilkes

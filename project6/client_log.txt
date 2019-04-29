@@ -1,0 +1,4 @@
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Sending:IAMAT stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282
+
+INFO:root:Received:AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282

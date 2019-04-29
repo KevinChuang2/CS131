@@ -1,0 +1,497 @@
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Holiday started
+INFO:root:RECEIVED: AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074
+INFO:root:FLOODING
+INFO:root:Connecting to server Goloman that has port # 12080
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+ to Goloman
+INFO:root:Connecting to server Welsh that has port # 12083
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+ to Welsh
+INFO:root:Connecting to server Wilkes that has port # 12084
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+ to Wilkes
+INFO:root:RECEIVED: AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+
+INFO:root:RECEIVED: 
+INFO:root:Failed to Connect to Wilkes
+INFO:root:RECEIVED: WHATSAT stupid.cs.ucla.edu 20 10
+
+INFO:root:WHATSAT MSG
+INFO:root:https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyB2YYoHuj26jt4P9qEzgzwzSi-isa7Tgug&location=-32.53, 152.22&radius=20000.0
+INFO:root:sending: AT Welsh +0.001996755599975586 -32.53 152.22 1552286625.3584042
+{
+   "html_attributions": [],
+   "next_page_token": "CqQCFQEAAKHSPZXDZnikiO926NpEci7u5Q2Lblc0BsffndihBENDeTct3oAbvDcHjidnAm-zLnXwlPUSc4S_Zk-h_DVXRHMCruueJ_pctI8G1dKZgZFXiwnqEAhnlipEm2CFpMyYJx4wdH7Yu_SB57roclsccoJqyREp0zK_flzIl8C_qKKKRstcG9MLCoQXEyB4nfXQ1X1PTksyui39VU0zG_DYgtUSeAPbJWZqG0lXTvKGw38z3L0FHJajY0uYlFFyljc5cfgxgbMoy_eo5i_MsXHkVDOAtjpKbe7OZxWr0OHlTB9wWmi2cTdxmvDT9QY-yrhreGkzpqBTj0MPLTPcE1A8OTfKqQLU6qpePVcH2a0MPeOVT0MZeiHifjFgLMfWCS8BBRIQDwoitTtCkO9BmTgmYfeP8xoU4V7Znv-T9tIv9PAVxzxDn4A5eWc",
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.4042398,
+               "lng": 152.2093154
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.2777659,
+                  "lng": 152.2597314
+               },
+               "southwest": {
+                  "lat": -32.4873551,
+                  "lng": 152.0673758
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "998c18bb7636afd57bdf8bd24f20fa9e73d11b67",
+         "name": "Bulahdelah",
+         "photos": [
+            {
+               "height": 1200,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/101859496583860516279/photos\">Lycans Silver</a>"
+               ],
+               "photo_reference": "CmRZAAAAsDMZ43C2V2Q4FErwyCppbb8apN_nk20l5He61aPUp1U2WEgzPISLOEDhoLiqKm6XWk_ATIZDuBop77gBBHHLq8rPqS2aC7bMbK-F1vF8T_3xCrA1LwOrVTUMq4CAXxfOEhDMVbnltJS99Xm0qteH9qXHGhTSWbM4IlWZiII9GWJ7ZoqLP14vTA",
+               "width": 1600
+            }
+         ],
+         "place_id": "ChIJg2SuT8xmdGsR8J1DkLQJBgQ",
+         "reference": "ChIJg2SuT8xmdGsR8J1DkLQJBgQ",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Bulahdelah"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.662351,
+               "lng": 152.156596
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6610053697085,
+                  "lng": 152.1580476302915
+               },
+               "southwest": {
+                  "lat": -32.6637033302915,
+                  "lng": 152.1553496697085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "ebc7c45ba654a50f8d5b310dda60b56ffcf5f6ab",
+         "name": "Boathouse Resort Tea Gardens",
+         "opening_hours": {
+            "open_now": false
+         },
+         "photos": [
+            {
+               "height": 510,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/115105831115549168211/photos\">Boathouse Resort Tea Gardens</a>"
+               ],
+               "photo_reference": "CmRaAAAAmATQz7h4-j-t7Qr5jvefy1CsjRuMKrcRw4-RlxOxgZ0CL8J6bkFF2L7cbPG5o5DLZqM0FYpJ2gckJhPgUgLsIpwlb0zMv_kiK9XXO5Myml_hvEtdn_Kp3wtoExmptfmYEhAcHkqFr3PwyRADbYKeywW-GhQXD8c1I46euKl_XIkJAdSDME26sA",
+               "width": 750
+            }
+         ],
+         "place_id": "ChIJv1S_Ofl4c2sR44fP1QEPo0E",
+         "plus_code": {
+            "compound_code": "85Q4+3J Tea Gardens, New South Wales, Australia",
+            "global_code": "4RVJ85Q4+3J"
+         },
+         "rating": 4.3,
+         "reference": "ChIJv1S_Ofl4c2sR44fP1QEPo0E",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 133,
+         "vicinity": "21-23 Marine Drive, Tea Gardens"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.670998,
+               "lng": 152.173029
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6698023697085,
+                  "lng": 152.1744363302915
+               },
+               "southwest": {
+                  "lat": -32.6725003302915,
+                  "lng": 152.1717383697085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "20f0086dc922284b18743d4cfa50c31cc7dba047",
+         "name": "Hawks Nest Motel",
+         "photos": [
+            {
+               "height": 4608,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/115970493692205549348/photos\">Olivier Liechti</a>"
+               ],
+               "photo_reference": "CmRaAAAAvOm0kqgQbBX5hIffwD-mmN_-WehGDkdYXpgE2GBCDVEMZFswzNhSguwo9m5o0Vet3369X35GpocB-DKC0WUSiiHC1ooL7pSbOPgoooTPIbatHrV-B4Clpgv4rFjduhl6EhAUZhM3w4g-WGju_9Lku3vZGhRovqkp3uw1Lk69ghnha1epAlVDJg",
+               "width": 3456
+            }
+         ],
+         "place_id": "ChIJyU3cbDKHc2sR30k3hJTX1so",
+         "plus_code": {
+            "compound_code": "85HF+J6 Hawks Nest, New South Wales, Australia",
+            "global_code": "4RVJ85HF+J6"
+         },
+         "rating": 4.3,
+         "reference": "ChIJyU3cbDKHc2sR30k3hJTX1so",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 71,
+         "vicinity": "3/5 Yamba Street, Hawks Nest"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.6642616,
+               "lng": 152.1531129
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6627261697085,
+                  "lng": 152.1542440802915
+               },
+               "southwest": {
+                  "lat": -32.6654241302915,
+                  "lng": 152.1515461197085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "8aa83aabee75761c94b667e38a937f69ff27bb6d",
+         "name": "Tea Gardens Country Club and Motel",
+         "photos": [
+            {
+               "height": 623,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/105195888696108498642/photos\">Tea Gardens Country Club and Motel</a>"
+               ],
+               "photo_reference": "CmRaAAAAG-MbzLrce6mjACvfhnakzB2cs--UvLeWs-Pqt1_VC-OomOQwSEOSsaVwoQo9KzCWQP-_LpTgWaldOaKmtKbQPHMKIP8aRiDHSRN90S1IlbKtW7BiHwAPrg69A2KnlpPnEhBDn2A9EED7-IL_Ty3vi-JXGhSpQCNzeDyVn8NKHlapUNN2HV2wow",
+               "width": 800
+            }
+         ],
+         "place_id": "ChIJgTAV_cSAc2sRgPjfKsN77SI",
+         "plus_code": {
+            "compound_code": "85P3+76 Tea Gardens, New South Wales, Australia",
+            "global_code": "4RVJ85P3+76"
+         },
+         "rating": 4,
+         "reference": "ChIJgTAV_cSAc2sRgPjfKsN77SI",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 136,
+         "vicinity": "2 Yalinbah Street, Tea Gardens"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.409243,
+               "lng": 152.2107599
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.40791726970849,
+                  "lng": 152.2122632302915
+               },
+               "southwest": {
+                  "lat": -32.41061523029149,
+                  "lng": 152.2095652697085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "f587369bd1c803080febe26f9ed9b446e2537ea0",
+         "name": "Bulahdelah Motor Lodge",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2988,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/109741265662983640770/photos\">Dave Watson</a>"
+               ],
+               "photo_reference": "CmRaAAAAgkj5FYVORatfXq2wWG91C3sxE78cUYAe8tqC7tXUODDHZh6sxCfRap_3OEjQmShR2cCE0jesmUL-Z-BLlQsxvE1ME_0N8KyT1a8pcelbbyZVhIH4pDo8uGHvUQLALXrTEhDlKfi7psgqH-dzkTewcPJgGhRBhBITp5QxJrga466V437Q0dzkRA",
+               "width": 5312
+            }
+         ],
+         "place_id": "ChIJbyWUDjJkdGsRoOaSPNMXs8w",
+         "plus_code": {
+            "compound_code": "H6R6+88 Bulahdelah, New South Wales, Australia",
+            "global_code": "4RVJH6R6+88"
+         },
+         "rating": 4.2,
+         "reference": "ChIJbyWUDjJkdGsRoOaSPNMXs8w",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total": 94,
+         "vicinity": "67-71 Bulahdelah Way, Bulahdelah"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.6745341,
+               "lng": 152.1842773
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6731937197085,
+                  "lng": 152.1858004802915
+               },
+               "southwest": {
+                  "lat": -32.6758916802915,
+                  "lng": 152.1831025197085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "b74ab3d69d084864019d7a7a081a30dd386f9a08",
+         "name": "Hawks Nest - Rustic Beach House on the Beach",
+         "photos": [
+            {
+               "height": 600,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/115727588440913980819/photos\">Dexter Dolittle</a>"
+               ],
+               "photo_reference": "CmRaAAAAw8E4Muw_iI0e2tgLqXj4oQsHg3pFCLP1qm6HTuU716ww4agFgp4fzjTLsihewf4T6dZ5BktpiAf0615_qXOXZBq4ZpS2EL2O03_Go228lLWfAnPOhxCZv_OQkVrvFmpMEhCFV48bYWdHinoljzEceYJyGhTZwkD_3eS175aanDQHxbKSn_n0YQ",
+               "width": 800
+            }
+         ],
+         "place_id": "ChIJaa6FMjuHc2sRPC0lL7ng7Z0",
+         "plus_code": {
+            "compound_code": "85GM+5P Hawks Nest, New South Wales, Australia",
+            "global_code": "4RVJ85GM+5P"
+         },
+         "reference": "ChIJaa6FMjuHc2sRPC0lL7ng7Z0",
+         "scope": "GOOGLE",
+         "types": [
+            "real_estate_agency",
+            "travel_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "7 Beach Road, Hawks Nest"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.6738786,
+               "lng": 152.1839538
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.67242391970849,
+                  "lng": 152.1853219302915
+               },
+               "southwest": {
+                  "lat": -32.67512188029149,
+                  "lng": 152.1826239697085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "b873996db2223f720e5ac2966ac73798a4c2f4d7",
+         "name": "SeaChange Apartments",
+         "place_id": "ChIJQXbsJTuHc2sRy6rI16rV0xc",
+         "plus_code": {
+            "compound_code": "85GM+CH Hawks Nest, New South Wales, Australia",
+            "global_code": "4RVJ85GM+CH"
+         },
+         "reference": "ChIJQXbsJTuHc2sRy6rI16rV0xc",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "106 Booner Street, Hawks Nest"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.6671013,
+               "lng": 152.1609581
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6657077697085,
+                  "lng": 152.1622551802915
+               },
+               "southwest": {
+                  "lat": -32.6684057302915,
+                  "lng": 152.1595572197085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "865fc9403c8148c87084c4645e3c39e283792fa3",
+         "name": "Tea Gardens Hotel",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 2766,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/108954559120655773806/photos\">Tea Gardens Hotel</a>"
+               ],
+               "photo_reference": "CmRaAAAAFHOTPyFEf_yRR1OIzCKuz9raFA2LIFiE4PV1V931LKwZrLPHjTVfGjPhk1Jq_N2JeebHaAFIC_BQLnYWkjOsUmzTISsDfSlT_BS-X7VYZj8xuEbuoosN7x7Sd8XGRPkqEhAzyUxapGlPhm1o5ozomDuCGhRj8_LuC9B5VrBXOvNg68ani3GXZQ",
+               "width": 4141
+            }
+         ],
+         "place_id": "ChIJPULITuV5c2sRSiFxqyU4K5k",
+         "plus_code": {
+            "compound_code": "85M6+59 Tea Gardens, New South Wales, Australia",
+            "global_code": "4RVJ85M6+59"
+         },
+         "rating": 4,
+         "reference": "ChIJPULITuV5c2sRSiFxqyU4K5k",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 320,
+         "vicinity": "Maxwell St & Marine Dr, Tea Gardens"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.668138,
+               "lng": 152.160702
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.6666795197085,
+                  "lng": 152.1621886802915
+               },
+               "southwest": {
+                  "lat": -32.6693774802915,
+                  "lng": 152.1594907197085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id": "bba549c6bdef8f7590191608597342efb7c9d7a4",
+         "name": "Hawks Nest Tea Gardens Physiotherapy",
+         "place_id": "ChIJMS__aM6Ac2sR30FaSlj6gl8",
+         "plus_code": {
+            "compound_code": "85J6+P7 Tea Gardens, New South Wales, Australia",
+            "global_code": "4RVJ85J6+P7"
+         },
+         "reference": "ChIJMS__aM6Ac2sR30FaSlj6gl8",
+         "scope": "GOOGLE",
+         "types": [
+            "physiotherapist",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "2/209 Myall Street, Tea Gardens"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": -32.4123222,
+               "lng": 152.2099917
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": -32.4110755197085,
+                  "lng": 152.2114933302915
+               },
+               "southwest": {
+                  "lat": -32.4137734802915,
+                  "lng": 152.2087953697085
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "656a20a7b9577f380754b34e26a402b25d70dfbe",
+         "name": "Bulahdelah Mt View Motel",
+         "photos": [
+            {
+               "height": 2160,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/117145799454083875561/photos\">Jon Eaton</a>"
+               ],
+               "photo_reference": "CmRaAAAAxt5fqxYwMK1F_cDk20a6g4BeSYgSkPM-9Iqedcat6dM8LwNM9R3LBGNPdWaalEqBpz99OHn9-S3MvptGA1Q0BuuAkh1NbMmDDBJX6H09dHNKQvRz3r9FJNNeakyuVQHOEhBRwdWMPyyga6cx5Og0nDaqGhRYxn9IpvkLKwuB_2QLyFisWeUk9Q",
+               "width": 2880
+            }
+         ],
+         "place_id": "ChIJ8bNHx5RkdGsR2phfRcxjsTk",
+         "plus_code": {
+            "compound_code": "H6Q5+3X Bulahdelah, New South Wales, Australia",
+            "global_code": "4RVJH6Q5+3X"
+         },
+         "rating": 4.1,
+         "reference": "ChIJ8bNHx5RkdGsR2phfRcxjsTk",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 23,
+         "vicinity": "95 Bulahdelah Way, Bulahdelah"
+      }
+   ],
+   "status": "OK"
+}
+
+
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Holiday started
+INFO:root:RECEIVED: WHATSAT stupid.cs.ucla.edu 20 10
+
+INFO:root:WHATSAT MSG
+ERROR:root:? ERROR: Not a client
+INFO:root:sending: ? WHATSAT stupid.cs.ucla.edu 20 10 
+
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Holiday started
+INFO:root:RECEIVED: IAMAT stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282
+
+INFO:root:IAMAT MSG
+INFO:root:sending: AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282
+INFO:root:FLOODING
+INFO:root:Connecting to server Goloman that has port # 12080
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 to Goloman
+INFO:root:Connecting to server Welsh that has port # 12083
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 to Welsh
+INFO:root:Connecting to server Wilkes that has port # 12084
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 to Wilkes
+INFO:root:RECEIVED: AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+
+INFO:root:RECEIVED: AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+
+INFO:root:Failed to Connect to Wilkes

@@ -1,0 +1,20 @@
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Welsh started
+INFO:root:RECEIVED: IAMAT stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074
+
+INFO:root:IAMAT MSG
+INFO:root:sending: AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074
+INFO:root:FLOODING
+INFO:root:Connecting to server Holiday that has port # 12082
+INFO:root:Sending AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 to Holiday
+INFO:root:RECEIVED: AT Welsh +0.001996755599975586 stupid.cs.ucla.edu -32.53+152.22 1552286625.3564074 
+
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Welsh started
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Welsh started
+INFO:root:RECEIVED: AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282
+INFO:root:FLOODING
+INFO:root:Connecting to server Holiday that has port # 12082
+INFO:root:Sending AT Holiday +0.0029921531677246094 stupid.cs.ucla.edu -32.53+152.22 1552431648.0055282 
+ to Holiday

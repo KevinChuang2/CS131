@@ -1,0 +1,16 @@
+For most of the set functions I ended up using a decent amount of the List module. The most common function I used was probably List.mem (to check if an element is in another list) or List.filter to filter out a list based on a certain predicate (like duplicates).
+
+For computed fixed point, I just used the definition of a computed fixed point to motivate my implementation. I just keep calling the function on itself and continue checking to see if the value stays the same. 
+
+For Q7 I tried to split up the work into different functions.
+
+My pseudocode is as follows: 
+Take the grammar's first argument and put it into a list that contains all of the nonterminals that we have seen.
+
+We will have a helper function that takes a set of rules ([N Snore; T ","; N Conversation]) and returns all nonterminals in the form [Snore; Conversation]. This is done by stripping the nonterminal part and some terminal nonterminal pattern matching.
+
+Use a helper function that goes through all of the rules in the second argument of the grammar, and check to see if that tuple (expr, rule) has an expr that is in the list of nonterminals. If it does, also check to see if we have seen the nonterminals within the rule before. If we haven't seen it, put the new nonterminals into our list and then start from the beginning of the rules again to make sure we don't miss any new nonterminals.
+
+Finally we have a function that takes our list of nonterminals, and simply adds all the rules that have the nonterminal on the left side from our original list.
+
+Problems: I used to try to do both the rule adding and the nonterminal searching at the same time, but that quickly proved annoying and I switched to splitting them up. I also had some trouble getting the helper function to restart from the beginning when it found a new rule, but solved it (admittedly pretty jankily) by passing a parameter that is a copy of the original rules (that doesn't shrink) that the function can reset on.
